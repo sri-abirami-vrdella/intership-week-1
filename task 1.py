@@ -1,4 +1,4 @@
-""""Description:
+""""task 1:
 Write a Python program that helps a user summarize their monthly budget.
 The program should ask for several inputs, perform calculations, and display results neatly."""
 
