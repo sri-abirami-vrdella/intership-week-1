@@ -1,3 +1,5 @@
+#advanced learning
+
 name=input("Enter your name: ")
 age=int(input("Enter your age: "))
 s1,s2,s3,s4,s5=map(float,input("Enter Mark of All 5 subjects: ").split())
