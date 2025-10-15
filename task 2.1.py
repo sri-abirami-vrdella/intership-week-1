@@ -4,13 +4,13 @@
 n=int(input("Enter a positive integer: "))
 if n>0: #check if positive
     for i in range(1,n+1):
-        if i==1: #1 is neither prime not composite
+        if i==1: #1 is neither prime nor composite
             print("1-> odd")
         elif i%5==0: # skip multiples of five
             print("skipped")
             continue
         elif i%2==0: #check if even
-            x=2 # all numbers divisible by 1
+            x=2 # all numbers are  divisible by 1
             fl=1
             while x<i: # all number divisible by itself
                 if i%x==0: #check if prime
@@ -18,7 +18,7 @@ if n>0: #check if positive
                     fl=0
                     break
                 x+=1
-            if fl==0:
+            if fl==0:#skip the loop if composite
                 continue
             print(f"{i}->Even(prime)")
         else: #if odd
@@ -30,7 +30,7 @@ if n>0: #check if positive
                     fl=0
                     break
                 x+=1
-            if fl==0:
+            if fl==0:#skip the loop if composite
                 continue
             print(f"{i}->odd(prime)")
 else:
