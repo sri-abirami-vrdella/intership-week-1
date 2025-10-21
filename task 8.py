@@ -1,9 +1,9 @@
 #------------------print total mark of students---------------
 
 class Students:
-    total_mark = 500   # Total possible marks per student
-    class_total = 0    # Total of all students' marks
-    obj_count = 0      # To count number of student objects
+    total_mark = 500
+    class_total = 0
+    obj_count = 0
 
     def __init__(self, name, s1, s2, s3, s4, s5):
         self.name = name
